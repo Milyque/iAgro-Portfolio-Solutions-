@@ -1,0 +1,129 @@
+.section{
+  width: 80%;
+  margin: 10px auto;
+  background: white;
+  height: 600px;
+  /*height: auto;*/
+  padding:10px;
+  overflow-y: auto;
+}
+.li{
+  position:absolute; left: 60%; top:40%; list-style:none; border-right:1px solid white; border-left:1px solid white;
+}
+.a{
+  padding:20px; color:White; font-size:20px; text-decoration:none;
+}
+.linker{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin-top: 10px;
+}
+.linker-btn{
+  height: 100%;
+  width: 16%;
+  display: inline-block;
+  background-color: rgba(0, 120, 200, 0.5);
+  border-radius: 10px;
+}
+.linker-btn a{
+  width: 100%;
+  text-decoration: none;
+  /* margin-right: 5px 15px 5px 10px; */
+}
+.linker-btn:hover{
+  background-color: rgba(0, 120, 200, 0.3);
+}
+/* contents in admin interactive pages*/
+.add-admin{
+  width: auto;
+  height: 50px;
+  background-color: rgba(0, 120, 200, 0.5);
+}
+
+.fetch{
+  width: 100%;
+  height: 90%;
+}
+.fetch-table{
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+table{
+  position: absolute;
+  top: 10px;
+  left: 0%;
+  width: 100%;
+  border-spacing: 5px;
+  height:auto;
+}
+tr th{
+  color: white;
+}
+tr td{
+  padding: 5px;
+  height: 40px;
+  width: auto;
+}
+tr:hover{
+  background: #ddd;
+}
+.btn2{
+  font-size: 100%;
+  font-family: times new roman;
+  text-decoration: none;
+  background: dodgerblue;
+  margin-top: 5px;
+  margin-left: 1%;
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: .3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.btn2:hover{
+  color:dodgerblue;
+  background: #ddd;
+}
+.btn-del {
+  text-decoration: none;
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+.btn-del:hover{
+  background: #ddd;
+  border: 1px solid red;
+  color: red;
+}
+.btn-edit {
+  text-decoration: none;
+  background: dodgerblue;
+  color: #ddd;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+.btn-edit:hover{
+  background: #ddd;
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+}
+
+.edit-form{
+  margin: 10px auto;
+  width: 60%;
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.edit-input{
+  margin: 2px auto;
+  width: 70%;
+  padding:2px;
+}

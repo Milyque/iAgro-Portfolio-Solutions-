@@ -1,0 +1,125 @@
+.container{
+  position: relative;
+}
+
+.container ul{
+  margin-right: 1%;
+  position: absolute;
+  top: -10%;
+  right: 5%;
+}
+
+.container ul li{
+  float: left;
+  list-style: none;
+  margin: auto 5px;
+}
+
+.container ul li a{
+  padding: 5px;
+}
+
+.container label{
+  color: maroon;
+  position: absolute;
+  text-transform: uppercase;
+  left: 5%;
+  top:30%;
+  font-size: 110%;
+}
+.page-container{
+  height: auto;
+  min-height: 100vh;
+  margin: 0px auto;
+  background: white;
+}
+.comment{
+  width:90%;
+  height: auto;
+  resize: none;
+  padding: 7px 23px;
+  margin: 10px auto;
+  background: white;
+  display: block;
+  box-sizing: border-box;
+  border:1px solid #bbb;
+  border-radius:7px;
+
+}
+.user{
+  font-size: 14px;
+  color: green;
+  word-break: break-all;
+  margin-top:15px;
+  line-height: 17px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.title{
+  font-size: 14px;
+  color: green;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.time{
+  font-size: 12px;
+  color: #b2b1b1;
+  transition: ease 0.3s all;
+  display: inline-block;
+}
+
+.comment img{
+  margin:0px 10px;
+  width: 70%;
+  height: 140px;
+}
+
+a{
+  color: dodgerblue;
+  cursor: pointer;
+  transition: ease 0.3s all;
+}
+
+a:hover{
+  color: #0072bc;
+}
+
+a.link-reply{
+  color: dodgerblue;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.child-comments{
+  border-left: 1px solid #111;
+}
+
+.child{
+  margin-left: 30%;
+  margin-top: 10px;
+  padding-left: 5px;
+  background: white;
+}
+
+.comment-text{
+  line-height: 17px;
+  color:#222;
+  margin:0px 10px;
+  font-size: 15px;
+}
+
+.form-text{
+  padding: 4px;
+  margin-top: 5px;
+  line-height: 24px;
+  transition: ease 0.3s all;
+  resize: none;
+  outline: none !important;
+}
+.form-submit{
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 5px;
+}

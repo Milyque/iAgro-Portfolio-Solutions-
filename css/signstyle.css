@@ -1,0 +1,149 @@
+.error{
+  color:red;
+  font: 16px monotype corsiva;
+}
+
+.form-container{
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  background-color: white;
+  width: 400px;
+  margin: 30px auto;
+  text-align: center;
+  color: black;
+  padding-bottom: 3%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.form-container input{
+  margin: 10px auto;
+  background-color: white;
+  width: 75%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  color: black;
+  /* padding: 1px; */
+}
+
+form .form-container p {
+  color: dodgerblue;
+  font-size: 15px;
+}
+
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center; /*centers the content horizontally*/
+  align-items: center; /*centers the content vertically*/
+  display: none;
+  font: 15px calibri;
+}
+
+.pop-content{
+  width: 35%;
+  height: 45%;
+  background: white;
+  text-align: center;
+  padding: 1%;
+  padding-bottom: 1%;
+  position: relative;
+  border-radius: 7px;
+}
+
+.pop-content img{
+  height: 30%;
+  width: 30%;
+}
+
+.pop-content input{
+  width: 70%;
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+#btn {
+  text-decoration: none;
+  background: dodgerblue;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+#tuma{
+  color: white;
+  background: dodgerblue;
+  border-radius: 7px;
+}
+
+#tuma:hover{
+  background: white;
+  color: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+  border-radius: 7px;
+}
+
+#btn:hover{
+  background: white;
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: red;
+  font-size: 35px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.close:hover{
+  font-size: 40px;
+}
+
+
+.animate {
+ -webkit-animation: animatezoom 0.6s;
+ animation: animatezoom 0.6s;
+ -o-animation: animatezoom 0.6s;
+ -moz-animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+ from {-webkit-transform: scale(0)}
+ to {-webkit-transform: scale(1)}
+}
+
+@-o-keyframes animatezoom {
+ from {-o-transform: scale(0)}
+ to {-o-transform: scale(1)}
+}
+
+@-moz-keyframes animatezoom {
+ from {-moz-transform: scale(0)}
+ to {-moz-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+@media (max-width:560px) {
+  .form-container{
+    width: 80%;
+  }
+}
+@media (max-width:310px) {
+  .form-container{
+    width: 98%;
+  }
+}

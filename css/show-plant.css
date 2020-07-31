@@ -1,0 +1,193 @@
+body{
+  background: #37434a;
+  margin: 0px;
+}
+header{
+  position: relative;
+  height: 100px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 1%;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+table{
+  border-collapse: collapse;
+  width: 34%;
+  position: absolute;
+  left: 27%;
+  top: 25%;
+}
+#nav{
+  padding: 10px;
+  font: 28px chiller;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+table#nav td{
+  border-right: 1px solid #009e0f;
+  border-left: 1px solid #009e0f;
+  list-style: none;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+table#nav td a{
+  text-decoration: none;
+  color: #009e0f;
+  font-size: 22px;
+}
+table#nav td a:hover, table#nav td li.current a:hover{
+  color: darkgray;
+  font-size: 27px;
+}
+table#nav td li.current a{
+  color: lightgreen;
+}
+.search{
+  position: absolute;
+  left: 65%;
+  top: 45%;
+  width: 30%;
+}
+.search input{
+  font: 16px black serif;
+  padding: 5px;
+  border-radius: 7px 0px 0px 7px;
+  width: 70%;
+  border: none;
+}
+.search button{
+  font: 100% black serif;
+  padding: 5px;
+  border-radius: 0px 7px 7px 0px;
+  border: none;
+  background-color: dodgerblue;
+  width: 20%;
+}
+/* breadcramps */
+.br-modal{
+  width: 53%;
+  margin-top: -20px;
+  margin-left: 15px;
+  padding: 0px;
+  background-color:#fff;
+  font: 15px calibri;
+  height: 20px;
+  line-height: 20px;
+  box-shadow: inset 0px 0px 15px rgba(0,0,0,0.6);
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.br-modal .breadcramps{
+  display: inline-block;
+  box-shadow: inset 0px 0px 15px rgba(0,0,0,0.6);
+  margin: auto 0px;
+  border-radius: 7px;
+  position: relative;
+}
+
+.breadcramps a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  float: left;
+  padding: 0px 10px 0px 10px;
+  border-right: 2px solid white;
+  background-color: #35734a;
+}
+
+.breadcramps a.active{
+  background: #54d85a;
+}
+
+.breadcramps a:hover{
+  background-color: darkgray;
+}
+/* section id container */
+
+#container{
+  margin: 20px 0px 10px 0px;
+  height: 400px;
+  padding: 10px;
+  position: relative;
+}
+#container .tile{
+  width: 53%;
+  height: 90%;
+  position: absolute;
+  border-right: 2px solid white;
+  padding: 10px;
+}
+#container .tile a{
+  text-decoration: none;
+  margin: 5px;
+}
+#container .tile a button{
+  background: #76a5af;
+  width: 31%;
+  border: none;
+  font: 15px papyrus;
+  color: white;
+}
+#container .tile a button:hover{
+  background-color: #45818e;
+}
+#container .tile a img{;
+  height: 30%;
+  width: 60%;
+}
+
+#container .tile a button #btn-ex{
+  background-color: #134f5c;
+}
+#container .pic-livestock{
+  position: absolute;
+  box-shadow: -10px -10px 10px 10px rgba(0, 0, 0, 0.5);
+  left: 55%;
+  height: 90%;
+  top: 5%;
+  border-radius: 7px;
+  width: 40%;
+  margin-left: 3%;
+  background: url("../img/plant2.jpeg")0% 100%;
+  background-size: cover;
+  animation: 30s slide infinite;
+}
+
+
+
+.foot{
+  min-height: 100px;
+  height: auto;
+  background-color: #45818e;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+@keyframes slide{
+  25%{
+    background: url("../img/agdam.jpg") 100% 100%;
+    background-size: cover;
+  }
+  50%{
+    background: url("../img/plant3.jpeg")100% 0%;
+    background-size: cover;
+  }
+  75%{
+    background: url("../img/plant4.jpeg") 0% 100%;
+    background-size: cover;
+  }
+  100%{
+    background: url("../img/plant5.jpeg")100% 0%;
+    background-size: cover;
+  }
+}

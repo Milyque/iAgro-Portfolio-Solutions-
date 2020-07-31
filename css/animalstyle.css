@@ -1,0 +1,127 @@
+h3{
+  color:green;
+  text-align: center;
+  font-size: 20px;
+}
+h4{
+  color: dodgerblue;
+  text-decoration: underline;
+  margin: 5px;
+}
+.img-style{
+  border:1px solid green;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius:10px;
+}
+#container{
+  height: 500px;
+}
+
+aside.sidebar{
+  position: absolute;
+  left: .5%;
+  top: 3%;
+  width: 15.1%;
+  background-color: #dddddd;
+  padding: .5%;
+  height: 70%;
+}
+
+aside.sidebar ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+aside.sidebar ul li{
+  list-style: none;
+  display: block;
+  padding: 0px;
+  margin: 0% 3% 0% 3%;
+  width: 100%;
+  border-bottom: 2px solid darkgray;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+}
+
+aside.sidebar ul li:hover{
+  background: #ccc;
+}
+
+aside.sidebar ul li:active{
+  background: #bbb;
+}
+
+.active-tab{
+  background-color: #aaa;
+  border-radius: 35px 0px 0px 30px;
+}
+.active-tab:hover{
+  background-color: #aaa;
+}
+
+aside.sidebar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5% 2% 5% 10%;
+  color: black;
+}
+
+#content{
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  background: #aaa;
+  padding: 1%;
+  position: absolute;
+  left: 16.55%;
+  top: -2.5%;
+  width: 80%;
+  height: auto;
+  overflow:auto;
+  justify-content: flex-start;
+}
+
+#content .panel{
+  padding: 10px;
+  height: 70%;
+  justify-content: center;
+  position: relative;
+  font: 16px times;
+  background: #eee;
+}
+#content .panel table{
+  width: 80%;
+  position: absolute;
+  left: 7%;
+  top: 50%;
+}
+#content .panel table tr:hover{
+  background: #bbb;
+}
+.highlight{
+  margin: 20px 10px 10px 10px;;
+  font: 18px monotype corsiva;
+  color:green;
+}
+.tbl-container{
+  position:relative;
+  width:90%;
+  height:auto;
+  margin: 20px 0px 0px 0px;
+  min-height: 180px;
+  /* border: 1px solid white; */
+}
+.tbl{
+  width:80%;
+  margin: 0px auto;
+  position: absolute;
+  left:0%;
+  top: 20px;
+  border-collapse: collapse;
+}
+.tbl tr td{
+  padding:5px;
+}
+.tbl tr:hover{
+  background: #777;
+}

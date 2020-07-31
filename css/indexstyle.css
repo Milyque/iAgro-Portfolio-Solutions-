@@ -1,0 +1,107 @@
+.error{
+  color:red;
+  font: 17px monotype corsiva;
+}
+
+#contain-index{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: url("../img/rain.PNG");
+  background-size: cover;
+}
+.lil-info{
+  position: absolute;
+  left: 45%;
+  width:45%;
+  padding: 1%;
+  background-color: #eee;
+  height:35%;
+  text-align: justify;
+  top: 50%;
+  color: #000;
+  font-size: 110%;
+  margin: 2%;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+.index-log{
+  position: absolute;
+  left: 45%;
+  width:45%;
+  background-color: inherit;
+  padding: 1%;
+  height:40%;
+  text-align: center;
+  top: 1.5%;
+  margin: 2%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.index-log input{
+  width: 70%;
+  display: block;
+  margin: 2% auto;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+#btn {
+  text-decoration: none;
+  background: dodgerblue;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+#btn:hover{
+  background: white;
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+}
+#tuma{
+  color: white;
+  background: dodgerblue;
+  border-radius: 7px;
+}
+#tuma:hover{
+  background: white;
+  color: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+  border-radius: 7px;
+}
+
+
+.form-container{
+  position: absolute;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  background-color: #eee;
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  color: black;
+  padding-bottom: 3%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.form-container input{
+  margin: 5px auto;
+  background-color: #eee;
+  width: 75%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  color: black;
+  /* padding: 5px; */
+}
+
+form .form-container p {
+  color: dodgerblue;
+  font-size: 15px;
+}
+
+@media (max-width:1167px) {
+  .form-container{
+    width: 40%;
+  }
+}
